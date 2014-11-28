@@ -1,0 +1,5 @@
+Building Barnacoin
+
+See doc/build-*.md for instructions on building barnacoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Barnacoin.

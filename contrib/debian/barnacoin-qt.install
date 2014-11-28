@@ -1,0 +1,6 @@
+usr/local/bin/barnacoin-qt usr/bin
+share/pixmaps/barnacoin32.xpm usr/share/pixmaps
+share/pixmaps/barnacoin16.xpm usr/share/pixmaps
+share/pixmaps/barnacoin128.png usr/share/pixmaps
+debian/barnacoin-qt.desktop usr/share/applications
+debian/barnacoin-qt.protocol usr/share/kde4/services/

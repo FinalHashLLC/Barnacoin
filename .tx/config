@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[barnacoin.tx]
+file_filter = src/qt/locale/barnacoin_<lang>.ts
+source_file = src/qt/locale/barnacoin_en.ts
+source_lang = en
