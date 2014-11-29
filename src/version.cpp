@@ -9,7 +9,7 @@
 // Name of client reported in the 'version' message. Report the same name
 // for both barnacoind and barnacoin-qt, to make it harder for attackers to
 // target servers or GUI users specifically.
-const std::string CLIENT_NAME("Satoshi");
+const std::string CLIENT_NAME("Barnacoin");
 
 // Client version number
 #define CLIENT_VERSION_SUFFIX   "-beta"
