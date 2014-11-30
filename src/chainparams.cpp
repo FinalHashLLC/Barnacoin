@@ -64,7 +64,7 @@ public:
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x000000000c4f36504d5ec61363109516700eda7f3be9000e34da4eb0d92fb283"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(0);
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(25);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
         base58Prefixes[SECRET_KEY] =     list_of(128);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E);
