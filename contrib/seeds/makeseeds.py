@@ -10,10 +10,11 @@ import sys
 from subprocess import check_output
 
 def main():
-    lines = sys.stdin.readlines()
+    lines = ["104.131.185.131:19833", "104.131.93.119:19833", "178.62.28.81:19833", "178.62.32.26:19833", "178.62.79.197:19833", "104.236.54.242:19833", "104.236.22.84:19833"
+	     "104.131.93.119:19833", "104.131.185.131:19833"]
 
     ips = []
-    pattern = re.compile(r"^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3}):8333")
+    pattern = re.compile(r"^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3}):19833")
     for line in lines:
         m = pattern.match(line)
         if m is None:
