@@ -33,7 +33,7 @@ public:
         pchMessageStart[1] = 0xc6;
         pchMessageStart[2] = 0x3c;
         pchMessageStart[3] = 0xaa;
-        vAlertPubKey = ParseHex("04fc9702847840aaf195de8442ebecedf5b095cdbb9bc716bda9110971b28a49e0ead8564ff0db22209e0374782c093bb899692d524e9d6a6956e7c5ecbcd68284");
+	vAlertPubKey = ParseHex("04fd5800968c363788d8cc031cc4284d0f10ddc77075da214350c0af854d3fbaee76f6f4505fcf41ac3f3311eaa0182921b775422e8b0be2fe5ca080b843dadec6");
         nDefaultPort = 19833;
         nRPCPort = 8332;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 32);
@@ -63,7 +63,6 @@ public:
         genesis.nNonce   = 994113774;
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x000000000c4f36504d5ec61363109516700eda7f3be9000e34da4eb0d92fb283"));
-        //assert(genesis.hashMerkleRoot == uint256("0xe19e58f880bf0bf9ad96fca57412bd7c0512627bfe955000018761d6b779c33f"));
 
         base58Prefixes[PUBKEY_ADDRESS] = list_of(0);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(5);
