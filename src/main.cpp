@@ -1761,6 +1761,7 @@ bool ConnectBlock(CBlock& block, CValidationState& state, CBlockIndex* pindex, C
         return true;
     }
 
+   bool fScriptChecks = pindex->nHeight >= Checkpoints::GetTotalBlocksEstimate();
    bool fEnforceBIP30 = true;
    if (fEnforceBIP30) {
         for (unsigned int i = 0; i < block.vtx.size(); i++) {
